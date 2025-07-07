@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Code, Server, Cloud, Zap, Sparkles, Rocket, Brain, Heart, User, Camera } from 'lucide-react';
-import maPhoto from '../assets/ma-Photo.jpg';
+import maPhoto from '../assets/ma-photo.jpg';
 
 
 
