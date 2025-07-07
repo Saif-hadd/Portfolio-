@@ -25,28 +25,19 @@ const Certifications = () => {
   const certifications = [
     {
       title: 'Red Hat Certified System Administrator (RHCSA)',
-      issuer: 'Red Hat',
-      date: '2024',
+      issuer: 'KodeKloud ',
+      date: '2025',
       icon: Server,
       description: 'Advanced Linux system administration and enterprise infrastructure management',
       skills: ['Linux Administration', 'System Configuration', 'Security', 'Troubleshooting'],
       gradient: 'from-red-500 to-orange-500',
       featured: true
     },
-    {
-      title: 'AWS Certified Solutions Architect - Professional',
-      issuer: 'Amazon Web Services',
-      date: '2023',
-      icon: Cloud,
-      description: 'Advanced cloud architecture design and implementation on AWS platform',
-      skills: ['AWS Architecture', 'ECS', 'Lambda', 'VPC', 'Security'],
-      gradient: 'from-orange-500 to-yellow-500',
-      featured: true
-    },
+    
     {
       title: 'CompTIA Security+',
-      issuer: 'CompTIA',
-      date: '2023',
+      issuer: 'KodeKloud ',
+      date: '2025',
       icon: Shield,
       description: 'Comprehensive cybersecurity fundamentals and best practices',
       skills: ['Network Security', 'Risk Management', 'Cryptography', 'Incident Response'],
@@ -54,9 +45,9 @@ const Certifications = () => {
       featured: true
     },
     {
-      title: 'Red Hat Certified Specialist in Ansible Automation',
-      issuer: 'Red Hat',
-      date: '2023',
+      title: 'Ansible Automation',
+      issuer: 'KodeKloud ',
+      date: '2025',
       icon: Server,
       description: 'Infrastructure automation and configuration management expertise',
       skills: ['Ansible Playbooks', 'Automation', 'Configuration Management', 'YAML'],
@@ -65,8 +56,8 @@ const Certifications = () => {
     },
     {
       title: 'AWS Certified: Amazon ECS Specialty',
-      issuer: 'Amazon Web Services',
-      date: '2023',
+      issuer: 'KodeKloud ',
+      date: '2025',
       icon: Cloud,
       description: 'Container orchestration and microservices deployment on AWS ECS',
       skills: ['ECS', 'Docker', 'Fargate', 'Container Security', 'Load Balancing'],
@@ -74,9 +65,9 @@ const Certifications = () => {
       featured: false
     },
     {
-      title: 'Grafana Certified Associate',
-      issuer: 'Grafana Labs',
-      date: '2022',
+      title: 'Grafana Loki',
+      issuer: 'KodeKloud ',
+      date: '2025',
       icon: BarChart3,
       description: 'Advanced monitoring, observability, and log aggregation with Grafana Loki',
       skills: ['Grafana', 'Loki', 'Prometheus', 'Monitoring', 'Alerting'],
@@ -86,7 +77,7 @@ const Certifications = () => {
     {
       title: 'Cisco Certified Network Associate (CCNA)',
       issuer: 'Cisco',
-      date: '2022',
+      date: '2025',
       icon: Network,
       description: 'Network fundamentals, routing, switching, and network security',
       skills: ['Networking', 'Routing', 'Switching', 'Network Security', 'Troubleshooting'],
@@ -250,10 +241,10 @@ const Certifications = () => {
         {/* Stats section */}
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { number: '7+', label: 'Active Certifications', icon: Award },
-            { number: '4', label: 'Cloud Platforms', icon: Cloud },
+            { number: '5+', label: 'Active Certifications', icon: Award },
+            { number: '3', label: 'Cloud Platforms', icon: Cloud },
             { number: '100%', label: 'Industry Recognition', icon: CheckCircle },
-            { number: '2024', label: 'Latest Achievement', icon: Sparkles }
+            { number: '2025', label: 'Latest Achievement', icon: Sparkles }
           ].map((stat, index) => (
             <div key={index} className="text-center group animate-on-scroll" style={{ animationDelay: `${index * 0.1}s` }}>
               <div className="w-16 h-16 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">

@@ -43,7 +43,7 @@ const Projects = () => {
         images: '+100',
         rating: '4.9/5'
       },
-      github: '#',
+      github: 'https://github.com/Saif-hadd/AI-Image-Generation-App',
       demo: '#',
       icon: Image,
       gradient: 'from-purple-500 via-pink-500 to-red-500',
@@ -56,70 +56,48 @@ const Projects = () => {
       image: 'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['Flutter', 'NestJS', 'PostgreSQL', 'Firebase', 'Google Cloud', 'TensorFlow', 'WebRTC'],
       features: [
-        'AI-powered workout recommendations',
-        'Real-time form correction using computer vision',
-        'Social challenges and leaderboards',
-        'Nutrition tracking with barcode scanning',
-        'Virtual personal trainer sessions'
+        "Integration of two external APIs: ExerciseDB and YouTube API",
+        "Exercise browsing with category and muscle group filters",
+        "Advanced search functionality by equipment, body part, or name",
+        "Responsive pagination for smoother navigation across exercises",
+        "Display of related YouTube workout videos for each exercise",
+        "Enhanced user experience through dynamic UI and interactive components",
       ],
       metrics: {
-        users: '25K+',
-        workouts: '500K+',
+        users: '100+',
+        workouts: '100+',
         rating: '4.8/5'
       },
-      github: '#',
+      github: 'https://github.com/Saif-hadd/FitTrack-Universe/',
       demo: '#',
       icon: Dumbbell,
       gradient: 'from-green-500 via-teal-500 to-cyan-500',
       featured: true
     },
-    {
-      title: 'ChatSphere Pro',
-      subtitle: 'Enterprise Communication Hub',
-      description: 'Ultra-scalable real-time communication platform supporting unlimited users, file sharing, video conferencing, and AI-powered message translation. Built for enterprise-grade performance.',
-      image: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['React', 'Socket.io', 'Node.js', 'MongoDB', 'WebRTC', 'Docker', 'Kubernetes', 'Redis'],
-      features: [
-        'Real-time messaging with 99.9% uptime',
-        'HD video calls for up to 100 participants',
-        'AI-powered language translation',
-        'End-to-end encryption',
-        'Advanced admin controls and analytics'
-      ],
-      metrics: {
-        users: '100K+',
-        messages: '10M+',
-        uptime: '99.9%'
-      },
-      github: '#',
-      demo: '#',
-      icon: MessageSquare,
-      gradient: 'from-blue-500 via-indigo-500 to-purple-500',
-      featured: true
-    },
+   
     {
       title: 'CloudOps Command Center',
-      subtitle: 'DevOps Automation Platform',
-      description: 'Complete DevOps automation suite with intelligent CI/CD pipelines, multi-cloud infrastructure management, and predictive monitoring. Reduces deployment time by 90%.',
+      subtitle: 'Plateforme DevOps automatisée pour la gestion et le déploiement cloud',
+      description: 'Automated deployment pipeline for full-stack apps using Docker, Ansible, and Terraform. CI/CD via GitHub Actions, infrastructure on Azure, and monitoring with Grafana — enabling fast, secure, and observable releases.',
       image: 'https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['Terraform', 'Ansible', 'Kubernetes', 'Prometheus', 'Grafana', 'Jenkins', 'Python', 'Go'],
+      technologies: ['Terraform', 'Ansible', 'Docker', 'Prometheus', 'Grafana', 'GithubActions', 'Azure'],
       features: [
-        'One-click multi-cloud deployments',
-        'Predictive scaling and cost optimization',
-        'Automated security compliance checks',
-        'Real-time infrastructure monitoring',
-        'Disaster recovery automation'
+        "Infrastructure provisioning on Azure using Terraform (Infrastructure as Code)",
+        "Automated deployment of Node.js, React, and PostgreSQL services with Ansible",
+        "Secure CI/CD pipeline setup using GitHub Actions",
+        "Integration of unit testing, static code analysis, and vulnerability scanning in CI/CD",
+        "Real-time monitoring with Prometheus and custom dashboards in Grafana",
+        "Network and VM security configuration on Azure (firewalls, SSH access, etc.)",
       ],
       metrics: {
-        deployments: '10K+',
         uptime: '99.99%',
         cost_saved: '40%'
       },
-      github: '#',
+      github: 'https://github.com/Saif-hadd/infra-as-code-automation',
       demo: '#',
       icon: Zap,
       gradient: 'from-orange-500 via-red-500 to-pink-500',
-      featured: false
+      featured: true
     }
   ];
 
