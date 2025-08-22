@@ -14,7 +14,7 @@ const Experience = () => {
         'Secured CI/CD pipelines with GitHub Actions, including unit testing, static code analysis, and vulnerability scanning. ',
         'Integrated Grafana and Prometheus for system monitoring and performance tracking.'
       ],
-      technologies: ['React', 'Node.js','PostgreSql' ,'Azure', 'Docker', 'Ansible', 'Terraform','GithubActions']
+      technologies: ['React', 'Node.js','PostgreSql' ,'Azure', 'Docker', 'Ansible', 'Terraform','GithubActions','DevSecOps','OWASP','SonarQube','Snyk','Trivy']
     },
     {
       company: 'ASM',
@@ -27,7 +27,7 @@ const Experience = () => {
         'Optimized performance for a seamless user experience',
         'Managed user authentication and messaging logic with MongoDB'
       ],
-      technologies: ['Flutter', 'SpringBoot',  'MongoDB', 'Jwt']
+      technologies: ['Flutter', 'SpringBoot',  'MongoDB', 'Jwt','RestAPI','Postman']
     },
     {
       company: 'TEKABDEV',
@@ -40,7 +40,8 @@ const Experience = () => {
         'Delivered intuitive, user-focused UI components to enhance usability',
         
       ],
-      technologies: ['Vue.js', 'Nest.js', 'PostgreSql', 'prisma', 'Gitlab', 'Docker']
+      technologies: ['Vue.js', 'Nest.js', 'PostgreSql', 'prisma','RestAPI','Node.js',         // Environnement d'exécution backend
+  'TypeScript', 'Swagger', 'Gitlab', 'Docker']
     },
      {
       company: 'INTEGRATION TECHNOLOGY',
@@ -54,7 +55,16 @@ const Experience = () => {
         'Built a centralized dashboard '
         
       ],
-      technologies: ['Flutter', 'FireBase', 'Php', ]
+      technologies: [
+  'Flutter',          // Développement mobile cross-platform
+  'Firebase',         // Authentification, base de données temps réel, cloud messaging
+  'PHP',              // Développement backend
+  'MySQL',            // Base de données relationnelle pour le backend PHP
+  'Google Maps API',  // Localisation et services basés sur la géolocalisation
+  'REST API',         // Communication entre l’application mobile/web et le backend
+  'Git',              // Gestion de version
+  'JSON',             // Format d’échange de données
+]
     },
     {
       company: 'INTEGRATION TECHNOLOGY',
@@ -67,7 +77,19 @@ const Experience = () => {
         
         
       ],
-      technologies: ['Java', 'Php', 'MySql', ]
+      technologies: [
+  'Java',                // Pour la logique métier ou une partie du backend
+  'PHP',                 // Backend côté serveur
+  'MySQL',               // Base de données relationnelle
+  'HTML',                // Structure des pages web
+  'CSS',                 // Mise en forme du front
+  'JavaScript',          // Interactivité côté client
+  'Google Maps API',     // Pour la géolocalisation des incidents
+  'REST API',            // Communication entre front et back
+  'Git',                 // Gestion de version
+  'JSON',                // Échange de données
+]
+
     }
   ];
 

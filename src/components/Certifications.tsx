@@ -45,6 +45,17 @@ const Certifications = () => {
       featured: true
     },
     {
+      title: 'Introduction to Ethical Hacking and IoT Cybersecurity/IoT Equipment Penetration Test',
+      issuer: 'IT-CyberSec Expert',
+      date: '2025',
+      icon: Shield,
+      description: 'Fundamentals of ethical hacking, IoT security, and penetration testing for connected devices',
+      skills: ['Ethical Hacking', 'IoT Security', 'Penetration Testing', 'Cybersecurity'],
+      gradient: 'from-green-500 to-blue-500',
+      featured: false
+},
+
+    {
       title: 'Ansible Automation',
       issuer: 'KodeKloud ',
       date: '2025',
@@ -75,8 +86,8 @@ const Certifications = () => {
       featured: false
     },
     {
-      title: 'Cisco Certified Network Associate (CCNA)',
-      issuer: 'Cisco',
+      title: 'Network  (Certiport)',
+      issuer: 'Certiport',
       date: '2025',
       icon: Network,
       description: 'Network fundamentals, routing, switching, and network security',
