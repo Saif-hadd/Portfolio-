@@ -4,45 +4,47 @@ import { Calendar, MapPin, Building } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      company: 'IOVISION',
-      position: 'Full Stack & DevOps Engineer',
-      duration: 'Feb 2025 - juin 2025',
-      location: 'Tunisia, Sfax',
-      description: [
-        'Provisioned Azure infrastructure (VMs, networks, security) using Terraform (IaC). ',
-        'Automated deployments of Node.js, React, and PostgreSQL services using Ansible. ',
-        'Secured CI/CD pipelines with GitHub Actions, including unit testing, static code analysis, and vulnerability scanning. ',
-        'Integrated Grafana and Prometheus for system monitoring and performance tracking.'
-      ],
-      technologies: ['React', 'Node.js','PostgreSql' ,'Azure', 'Docker', 'Ansible', 'Terraform','GithubActions','DevSecOps','OWASP','SonarQube','Snyk','Trivy']
-    },
-    {
-      company: 'ASM',
-      position: 'Full Stack Developer',
-      duration: 'Juil 2024 - Aug2024',
-      location: 'Sfax, Tunisia',
-      description: [
-        'Developed a real-time chat application using Flutter and Spring Boot ',
-        'Secured communication between mobile client and server, increasing data security by 25%.',
-        'Optimized performance for a seamless user experience',
-        'Managed user authentication and messaging logic with MongoDB'
-      ],
-      technologies: ['Flutter', 'SpringBoot',  'MongoDB', 'Jwt','RestAPI','Postman']
-    },
-    {
-      company: 'TEKABDEV',
-      position: 'DevOps Developer',
-      duration: 'Juil 2023 - Sep 2023',
-      location: 'Tunisia, Sfax',
-      description: [
-        'Built scalable web apps using Vue.js, NestJS, and Docker for containerized environments',
-        'Developed custom CRUD functionalities for enterprise resource management',
-        'Delivered intuitive, user-focused UI components to enhance usability',
-        
-      ],
-      technologies: ['Vue.js', 'Nest.js', 'PostgreSql', 'prisma','RestAPI','Node.js',         // Environnement d'exécution backend
-  'TypeScript', 'Swagger', 'Gitlab', 'Docker']
-    },
+  company: 'IOVISION',
+  position: 'Ingénieur DevOps & Full Stack PFE',
+  duration: 'Fév 2025 - Juin 2025',
+  location: 'Tunisia, Sfax',
+  description: [
+    'Provisionnement d’infrastructure Microsoft Azure (VMs, VNets, NSGs) avec Terraform (IaC)',
+    'Automatisation des déploiements de microservices (Node.js, React, PostgreSQL) avec Ansible',
+    'Élaboration de plans de test manuels pour les fonctionnalités front/back',
+    'Tests d’API (Postman) et tests UI automatisés (Playwright)',
+    'Gestion du cycle de vie QA complet (bugs, suivi et résolution via Jira)',
+    'Mise en place de pipelines CI/CD GitHub Actions incluant tests unitaires, SAST, DAST et scans de vulnérabilités',
+    'Supervision système avec Prometheus & Grafana (dashboards et métriques)'
+  ],
+  technologies: ['React', 'Node.js','PostgreSql' ,'Azure', 'Docker', 'Ansible', 'Terraform','GithubActions','DevSecOps','OWASP','SonarQube','Snyk','Trivy']
+},
+{
+  company: 'ASM',
+  position: 'Développeur Full Stack Stage',
+  duration: 'Juil 2024 - Aout 2024',
+  location: 'Sfax, Tunisia',
+  description: [
+    'Développement d’une application de chat en temps réel (Flutter + Spring Boot)',
+    'Renforcement de la sécurité (+25%) en protégeant la communication API et les sessions utilisateurs',
+    'Optimisation du backend pour réduire la latence et améliorer l’expérience utilisateur',
+    'Gestion de la base de données MongoDB pour l’authentification et le stockage des messages'
+  ],
+  technologies: ['Flutter', 'SpringBoot',  'MongoDB', 'Jwt','RestAPI','Postman']
+},
+{
+  company: 'TEKABDEV',
+  position: 'Développeur Full Stack & DevOps Stage',
+  duration: 'Juil 2023 - Août 2023',
+  location: 'Tunisia, Sfax',
+  description: [
+    'Développement d’applications web scalables avec Vue.js (frontend) et NestJS (backend), déployées dans des environnements conteneurisés Docker pour assurer portabilité et performance',
+    'Implémentation de fonctionnalités CRUD métier complexes pour des clients entreprises, optimisant la gestion des processus internes et améliorant la productivité',
+    'Conception et intégration de composants UI réutilisables et responsives, orientés expérience utilisateur (UX), permettant de réduire le temps de développement et d’améliorer la cohérence visuelle des applications'
+  ],
+  technologies: ['Vue.js', 'Nest.js', 'PostgreSql', 'prisma','RestAPI','Node.js','TypeScript', 'Swagger', 'Gitlab', 'Docker']
+}
+,
      {
       company: 'INTEGRATION TECHNOLOGY',
       position: 'Full Stack Developer',
