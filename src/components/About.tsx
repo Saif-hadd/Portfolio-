@@ -168,9 +168,9 @@ const About = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6">
               {[
-                { number: '6+', label: 'Projects Delivered' },
+                { number: '10+', label: 'Projects Delivered' },
                 { number: '1+', label: 'Years Experience' },
-                { number: '6+', label: 'Users Impacted' }
+                { number: '20+', label: 'Users Impacted' }
               ].map((stat, index) => (
                 <div key={index} className="text-center group">
                   <div className="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 mb-2 group-hover:scale-110 transition-transform duration-300">

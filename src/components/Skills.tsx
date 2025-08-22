@@ -205,7 +205,7 @@ const Skills = () => {
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
             { number: '25+', label: 'Technologies Mastered', icon: Code },
-            { number: '5+', label: 'Projects Completed', icon: Zap },
+            { number: '10+', label: 'Projects Completed', icon: Zap },
             { number: '2+', label: 'Cloud Platforms', icon: Cloud },
             { number: '∞', label: 'Learning Never Stops', icon: Sparkles }
           ].map((stat, index) => (
