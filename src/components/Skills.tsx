@@ -43,6 +43,8 @@ const Skills = () => {
       { name: 'React', level: 95, color: 'from-blue-400 to-blue-600' },
       { name: 'TypeScript', level: 80, color: 'from-blue-500 to-cyan-500' },
       { name: 'Next.js', level: 85, color: 'from-gray-400 to-gray-600' },
+      { name: 'Angular', level: 85, color: 'from-red-500 to-orange-500' },
+  { name: 'Vue.js', level: 89, color: 'from-green-400 to-emerald-500' },
       { name: 'Tailwind CSS', level: 82, color: 'from-cyan-400 to-teal-500' },
       { name: 'Flutter', level: 80, color: 'from-blue-400 to-indigo-500' }
     ]
@@ -66,7 +68,8 @@ const Skills = () => {
     skills: [
       { name: 'PostgreSQL', level: 95, color: 'from-blue-500 to-blue-700' },
       { name: 'MongoDB', level: 88, color: 'from-green-500 to-green-700' },
-      { name: 'MySQL', level: 82, color: 'from-orange-400 to-orange-600' }
+      { name: 'MySQL', level: 82, color: 'from-orange-400 to-orange-600' },
+      { name: 'Firebase', level: 80, color: 'from-yellow-400 to-amber-600' }
     ]
   },
   {

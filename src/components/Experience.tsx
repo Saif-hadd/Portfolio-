@@ -2,98 +2,95 @@ import React from 'react';
 import { Calendar, MapPin, Building } from 'lucide-react';
 
 const Experience = () => {
-  const experiences = [
-    {
-  company: 'IOVISION',
-  position: 'Ingénieur DevOps & Full Stack PFE',
-  duration: 'Fév 2025 - Juin 2025',
-  location: 'Tunisia, Sfax',
-  description: [
-    'Provisionnement d’infrastructure Microsoft Azure (VMs, VNets, NSGs) avec Terraform (IaC)',
-    'Automatisation des déploiements de microservices (Node.js, React, PostgreSQL) avec Ansible',
-    'Élaboration de plans de test manuels pour les fonctionnalités front/back',
-    'Tests d’API (Postman) et tests UI automatisés (Playwright)',
-    'Gestion du cycle de vie QA complet (bugs, suivi et résolution via Jira)',
-    'Mise en place de pipelines CI/CD GitHub Actions incluant tests unitaires, SAST, DAST et scans de vulnérabilités',
-    'Supervision système avec Prometheus & Grafana (dashboards et métriques)'
-  ],
-  technologies: ['React', 'Node.js','PostgreSql' ,'Azure', 'Docker', 'Ansible', 'Terraform','GithubActions','DevSecOps','OWASP','SonarQube','Snyk','Trivy']
-},
-{
-  company: 'ASM',
-  position: 'Développeur Full Stack Stage',
-  duration: 'Juil 2024 - Aout 2024',
-  location: 'Sfax, Tunisia',
-  description: [
-    'Développement d’une application de chat en temps réel (Flutter + Spring Boot)',
-    'Renforcement de la sécurité (+25%) en protégeant la communication API et les sessions utilisateurs',
-    'Optimisation du backend pour réduire la latence et améliorer l’expérience utilisateur',
-    'Gestion de la base de données MongoDB pour l’authentification et le stockage des messages'
-  ],
-  technologies: ['Flutter', 'SpringBoot',  'MongoDB', 'Jwt','RestAPI','Postman']
-},
-{
-  company: 'TEKABDEV',
-  position: 'Développeur Full Stack & DevOps Stage',
-  duration: 'Juil 2023 - Août 2023',
-  location: 'Tunisia, Sfax',
-  description: [
-    'Développement d’applications web scalables avec Vue.js (frontend) et NestJS (backend), déployées dans des environnements conteneurisés Docker pour assurer portabilité et performance',
-    'Implémentation de fonctionnalités CRUD métier complexes pour des clients entreprises, optimisant la gestion des processus internes et améliorant la productivité',
-    'Conception et intégration de composants UI réutilisables et responsives, orientés expérience utilisateur (UX), permettant de réduire le temps de développement et d’améliorer la cohérence visuelle des applications'
-  ],
-  technologies: ['Vue.js', 'Nest.js', 'PostgreSql', 'prisma','RestAPI','Node.js','TypeScript', 'Swagger', 'Gitlab', 'Docker']
-}
-,
-     {
-      company: 'INTEGRATION TECHNOLOGY',
-      position: 'Full Stack Developer',
-      duration: 'Feb 2022 - Juin 2022',
-      location: 'Tunisia, Medenine',
-      description: [
-        'Led development of a web and mobile app supporting Covid-19 response efforts.',
-        'Designed and built a location-based service to identify available oxygen devices in real time',
-        'Developed an online contact service to aid communication for Covid-affected users',
-        'Built a centralized dashboard '
-        
-      ],
-      technologies: [
-  'Flutter',          // Développement mobile cross-platform
-  'Firebase',         // Authentification, base de données temps réel, cloud messaging
-  'PHP',              // Développement backend
-  'MySQL',            // Base de données relationnelle pour le backend PHP
-  'Google Maps API',  // Localisation et services basés sur la géolocalisation
-  'REST API',         // Communication entre l’application mobile/web et le backend
-  'Git',              // Gestion de version
-  'JSON',             // Format d’échange de données
-]
-    },
-    {
-      company: 'INTEGRATION TECHNOLOGY',
-      position: 'Full Stack Developer',
-      duration: 'Aug 2021 - Sep 2021',
-      location: 'Tunisia, Medenine',
-      description: [
-        'Designed a user-friendly interface for reporting streetlight malfunctions',
-        'Built a centralized dashboard showing real-time incident reports with geolocation data.',
-        
-        
-      ],
-      technologies: [
-  'Java',                // Pour la logique métier ou une partie du backend
-  'PHP',                 // Backend côté serveur
-  'MySQL',               // Base de données relationnelle
-  'HTML',                // Structure des pages web
-  'CSS',                 // Mise en forme du front
-  'JavaScript',          // Interactivité côté client
-  'Google Maps API',     // Pour la géolocalisation des incidents
-  'REST API',            // Communication entre front et back
-  'Git',                 // Gestion de version
-  'JSON',                // Échange de données
-]
+ const experiences = [
+  {
+    company: 'IOVISION',
+    position: 'DevOps & Full Stack Engineer ',
+    duration: 'Feb 2025 - Jun 2025',
+    location: 'Sfax, Tunisia',
+    description: [
+      'Containerization of microservices using Docker & Docker Compose (multi-container setups, networks …)',
+      'Provisioning of Microsoft Azure infrastructure (VMs, VNets, NSGs) with Terraform (IaC)',
+      'Automation of microservices deployment (Node.js, React, PostgreSQL) with Ansible',
+      'Design of manual test plans for front/back features',
+      'API testing (Postman) and automated UI testing (Playwright)',
+      'End-to-end QA lifecycle management (bugs, tracking, and resolution via Jira)',
+      'Built CI/CD pipelines (GitHub Actions) including unit tests, SAST, DAST, and vulnerability scans resulting in a 40% reduction in production errors and a 30% acceleration of the deployment cycle',
+      'System monitoring with Prometheus & Grafana (dashboards and metrics)'
+    ],
+    technologies: ['React', 'Node.js','PostgreSql','Azure','Docker','Ansible','Terraform','GithubActions','DevSecOps','OWASP','SonarQube','Snyk','Trivy']
+  },
+  {
+    company: 'ASM',
+    position: 'Full Stack Developer',
+    duration: 'Jul 2024 - Aug 2024',
+    location: 'Sfax, Tunisia',
+    description: [
+      'Developed a real-time chat application (Flutter + Spring Boot)',
+      'Enhanced security (+25%) by securing API communication and user sessions',
+      'Optimized the backend to reduce latency and improve user experience',
+      'Managed MongoDB database for authentication and message storage'
+    ],
+    technologies: ['Flutter','SpringBoot','MongoDB','Jwt','RestAPI','Postman']
+  },
+  {
+    company: 'TEKABDEV',
+    position: 'Full Stack Developer',
+    duration: 'Jul 2023 - Aug 2023',
+    location: 'Sfax, Tunisia',
+    description: [
+      'Developed scalable web applications with Vue.js (frontend) and NestJS (backend), deployed in Docker containerized environments to ensure portability and performance',
+      'Implemented complex business CRUD features for enterprise clients, optimizing process management and improving productivity',
+      'Designed and integrated reusable and responsive UI components focused on user experience (UX), reducing development time and improving visual consistency of applications'
+    ],
+    technologies: ['Vue.js','Nest.js','PostgreSql','Prisma','RestAPI','Node.js','TypeScript','Swagger','Gitlab','Docker']
+  },
+  {
+    company: 'INTEGRATION TECHNOLOGY',
+    position: 'Full Stack Developer',
+    duration: 'Feb 2022 - Jun 2022',
+    location: 'Medenine, Tunisia',
+    description: [
+      'Led development of a web and mobile app supporting Covid-19 response efforts',
+      'Designed and built a location-based service to identify available oxygen devices in real time',
+      'Developed an online contact service to facilitate communication for Covid-affected users',
+      'Built a centralized dashboard'
+    ],
+    technologies: [
+      'Flutter',          
+      'Firebase',         
+      'PHP',              
+      'MySQL',            
+      'Google Maps API',  
+      'REST API',         
+      'Git',              
+      'JSON'
+    ]
+  },
+  {
+    company: 'INTEGRATION TECHNOLOGY',
+    position: 'Full Stack Developer',
+    duration: 'Aug 2021 - Sep 2021',
+    location: 'Medenine, Tunisia',
+    description: [
+      'Designed a user-friendly interface for reporting streetlight malfunctions',
+      'Built a centralized dashboard showing real-time incident reports with geolocation data'
+    ],
+    technologies: [
+      'Java',
+      'PHP',
+      'MySQL',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Google Maps API',
+      'REST API',
+      'Git',
+      'JSON'
+    ]
+  }
+];
 
-    }
-  ];
 
   return (
     <section className="py-20 bg-gray-50" id="experience">
