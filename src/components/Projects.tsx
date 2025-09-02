@@ -23,6 +23,47 @@ const Projects = () => {
   }, []);
 
   const projects = [
+     {
+  title: 'DevSecOps Microservices Automation',
+  subtitle: 'Automatisation DevSecOps pour le déploiement et la gestion des microservices cloud',
+  description: 'Automated deployment pipeline for full-stack apps using Docker, Ansible, Terraform, and React/Node.js/PostgreSQL stack. CI/CD via GitHub Actions, security checks with OWASP, SonarQube, Snyk & Trivy, infrastructure on Azure, and monitoring with Grafana — enabling fast, secure, and observable releases.',
+  image: 'https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=800',
+  technologies: [
+    'React', 
+    'Node.js', 
+    'PostgreSQL', 
+    'Azure', 
+    'Docker', 
+    'Ansible', 
+    'Terraform', 
+    'GitHub Actions', 
+    'DevSecOps', 
+    'OWASP', 
+    'SonarQube', 
+    'Snyk', 
+    'Trivy',
+    'Prometheus',
+    'Grafana'
+  ],
+  features: [
+    "Containerization of microservices using Docker & Docker Compose (multi-container setups, networks …)",
+    "Infrastructure provisioning on Azure using Terraform (Infrastructure as Code)",
+    "Automated deployment of Node.js, React, and PostgreSQL services with Ansible",
+    "Secure CI/CD pipeline setup using GitHub Actions",
+    "Integration of unit testing, static code analysis, and vulnerability scanning (OWASP, SonarQube, Snyk, Trivy) in CI/CD",
+    "Real-time monitoring with Prometheus and custom dashboards in Grafana",
+    "Network and VM security configuration on Azure (firewalls, SSH access, etc.)"
+  ],
+  metrics: {
+    uptime: '99.99%',
+    cost_saved: '40%'
+  },
+  github: 'https://github.com/Saif-hadd/infra-as-code-automation',
+  demo: '#',
+  icon: Zap,
+  gradient: 'from-orange-500 via-red-500 to-pink-500',
+  featured: true
+},
     {
       title: 'AI Vision Studio',
       subtitle: 'Next-Gen Image Generation Platform',
@@ -50,55 +91,58 @@ const Projects = () => {
       featured: true
     },
     {
-      title: 'FitTrack Universe',
-      subtitle: 'Holistic Fitness Ecosystem',
-      description: 'Comprehensive fitness platform combining workout planning, nutrition tracking, social features, and AI-powered personal training. Built with Flutter for seamless cross-platform experience.',
-      image: 'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['Flutter', 'NestJS', 'PostgreSQL', 'Firebase', 'Google Cloud', 'TensorFlow', 'WebRTC'],
-      features: [
-        "Integration of two external APIs: ExerciseDB and YouTube API",
-        "Exercise browsing with category and muscle group filters",
-        "Advanced search functionality by equipment, body part, or name",
-        "Responsive pagination for smoother navigation across exercises",
-        "Display of related YouTube workout videos for each exercise",
-        "Enhanced user experience through dynamic UI and interactive components",
-      ],
-      metrics: {
-        users: '100+',
-        workouts: '100+',
-        rating: '4.8/5'
-      },
-      github: 'https://github.com/Saif-hadd/FitTrack-Universe/',
-      demo: '#',
-      icon: Dumbbell,
-      gradient: 'from-green-500 via-teal-500 to-cyan-500',
-      featured: true
-    },
-   
+  title: 'React Hydration Status',
+  subtitle: 'Client-Side Hydration Detection for SSR',
+  description: 'Small open-source React library to detect client-side hydration status in SSR applications (Next.js / React SSR). Allows components to render only after hydration, improving user experience and preventing SSR/CSR mismatches.',
+  image: 'https://images.pexels.com/photos/1181672/pexels-photo-1181672.jpeg?auto=compress&cs=tinysrgb&w=800',
+  technologies: ['React', 'TypeScript', 'Next.js', 'SSR'],
+  features: [
+    "Detects client-side hydration status in SSR applications",
+    "Provides a reusable hook: useHydrationStatus()",
+    "Includes <HydrationProvider> for context management",
+    "Helps prevent SSR/CSR mismatch errors",
+    "Improves UX by conditionally rendering components after hydration"
+  ],
+  metrics: {
+    downloads: '500+',
+    stars: '50+'
+  },
+  github: 'https://github.com/Saif-hadd/React-Hydration-Status',
+  demo: '#',
+  icon: Zap,
+  gradient: 'from-blue-500 via-indigo-500 to-purple-500',
+  featured: true
+}
+,
     {
-      title: 'CloudOps Command Center',
-      subtitle: 'Plateforme DevOps automatisée pour la gestion et le déploiement cloud',
-      description: 'Automated deployment pipeline for full-stack apps using Docker, Ansible, and Terraform. CI/CD via GitHub Actions, infrastructure on Azure, and monitoring with Grafana — enabling fast, secure, and observable releases.',
-      image: 'https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['Terraform', 'Ansible', 'Docker', 'Prometheus', 'Grafana', 'GithubActions', 'Azure'],
-      features: [
-        "Infrastructure provisioning on Azure using Terraform (Infrastructure as Code)",
-        "Automated deployment of Node.js, React, and PostgreSQL services with Ansible",
-        "Secure CI/CD pipeline setup using GitHub Actions",
-        "Integration of unit testing, static code analysis, and vulnerability scanning in CI/CD",
-        "Real-time monitoring with Prometheus and custom dashboards in Grafana",
-        "Network and VM security configuration on Azure (firewalls, SSH access, etc.)",
-      ],
-      metrics: {
-        uptime: '99.99%',
-        cost_saved: '40%'
-      },
-      github: 'https://github.com/Saif-hadd/infra-as-code-automation',
-      demo: '#',
-      icon: Zap,
-      gradient: 'from-orange-500 via-red-500 to-pink-500',
-      featured: true
-    }
+  title: 'FitTrack Universe',
+  subtitle: 'Holistic Fitness Ecosystem',
+  description: 'Comprehensive fitness platform combining workout planning, nutrition tracking, social features, and AI-powered personal training. Built with Flutter for seamless cross-platform experience.',
+  image: 'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800',
+  technologies: ['React', 'Node.js', 'PostgreSQL', 'RapidAPI', 'Material UI', 'JavaScript', 'REST APIs'],
+  features: [
+    "Integration of two external APIs: ExerciseDB and YouTube API",
+    "Exercise browsing with category and muscle group filters",
+    "Advanced search functionality by equipment, body part, or name",
+    "Responsive pagination for smoother navigation across exercises",
+    "Display of related YouTube workout videos for each exercise",
+    "Enhanced user experience through dynamic UI and interactive components",
+  ],
+  metrics: {
+    users: '100+',
+    workouts: '100+',
+    rating: '4.8/5'
+  },
+  github: 'https://github.com/Saif-hadd/FitTrack-Universe/',
+  demo: '#',
+  icon: Dumbbell,
+  gradient: 'from-green-500 via-teal-500 to-cyan-500',
+  featured: true
+},
+
+   
+   
+
   ];
 
   return (

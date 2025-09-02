@@ -43,7 +43,7 @@ const Experience = () => {
       'Implemented complex business CRUD features for enterprise clients, optimizing process management and improving productivity',
       'Designed and integrated reusable and responsive UI components focused on user experience (UX), reducing development time and improving visual consistency of applications'
     ],
-    technologies: ['Vue.js','Nest.js','PostgreSql','Prisma','RestAPI','Node.js','TypeScript','Swagger','Gitlab','Docker']
+    technologies: ['Vue.js','Nest.js','PostgreSql','Prisma','RestAPI','Node.js','TypeScript','Swagger','Gitlab','Docker','Grafana','Prometheus']
   },
   {
     company: 'INTEGRATION TECHNOLOGY',
