@@ -27,7 +27,7 @@ const Projects = () => {
   title: 'DevSecOps Microservices Automation',
   subtitle: 'Automatisation DevSecOps pour le déploiement et la gestion des microservices cloud',
   description: 'Automated deployment pipeline for full-stack apps using Docker, Ansible, Terraform, and React/Node.js/PostgreSQL stack. CI/CD via GitHub Actions, security checks with OWASP, SonarQube, Snyk & Trivy, infrastructure on Azure, and monitoring with Grafana — enabling fast, secure, and observable releases.',
-  image: 'https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=800',
+  image: 'https://images.pexels.com/photos/5473950/pexels-photo-5473950.jpeg?auto=compress&cs=tinysrgb&w=800', // image liée à DevOps / cloud
   technologies: [
     'React', 
     'Node.js', 
@@ -94,7 +94,7 @@ const Projects = () => {
   title: 'React Hydration Status',
   subtitle: 'Client-Side Hydration Detection for SSR',
   description: 'Small open-source React library to detect client-side hydration status in SSR applications (Next.js / React SSR). Allows components to render only after hydration, improving user experience and preventing SSR/CSR mismatches.',
-  image: 'https://images.pexels.com/photos/1181672/pexels-photo-1181672.jpeg?auto=compress&cs=tinysrgb&w=800',
+  image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800', // image liée à React / développement frontend
   technologies: ['React', 'TypeScript', 'Next.js', 'SSR'],
   features: [
     "Detects client-side hydration status in SSR applications",
