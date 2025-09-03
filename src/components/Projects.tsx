@@ -65,7 +65,7 @@ const Projects = () => {
   featured: true
 },
     {
-      title: 'AI Vision Studio',
+      title: 'DALL-E Studio',
       subtitle: 'Next-Gen Image Generation Platform',
       description: 'Revolutionary AI-powered image generation platform that rivals Midjourney and DALL-E. Features advanced prompt engineering, style transfer algorithms, and ultra-high resolution output with real-time preview capabilities.',
       image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -84,8 +84,8 @@ const Projects = () => {
         images: '+100',
         rating: '4.9/5'
       },
-      github: 'https://github.com/Saif-hadd/AI-Image-Generation-App',
-      demo: '#',
+      github: '#',
+      demo: 'https://ai-image-generation-app-gray.vercel.app/',
       icon: Image,
       gradient: 'from-purple-500 via-pink-500 to-red-500',
       featured: true
