@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { ExternalLink, Github, Zap, MessageSquare, Dumbbell, Image, Sparkles, Star, TrendingUp } from 'lucide-react';
+import { ExternalLink, Github, Zap,Shield, Dumbbell, Image, Sparkles, Star, TrendingUp } from 'lucide-react';
 
 const Projects = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -23,6 +23,36 @@ const Projects = () => {
   }, []);
 
   const projects = [
+    {
+  title: 'SecretHawk',
+  subtitle: 'Your Guardian Against Exposed API Keys',
+  description:
+    'SecretHawk is a production-ready secret scanner designed to protect developers and teams from exposed API keys and credentials in codebases. It provides both a local CLI and a modern web dashboard to detect, monitor, and alert on secret leaks in real time — ensuring security by design.',
+  image: 'https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=800', // image liée à cybersécurité / code scanning
+  technologies: ['Python', 'FastAPI', 'React', 'TailwindCSS', 'shadcn/ui', 'Docker', 'GitHub Actions', 'Regex', 'Gitleaks'],
+  features: [
+    'Local CLI scanner (Python) for files and directories using Regex + Gitleaks',
+    'Export scan results in JSON or CSV formats',
+    'Web dashboard built with React, TailwindCSS, and shadcn/ui',
+    'Automatic repository monitoring every 30 minutes',
+    'Webhooks for instant scans on push events',
+    'Dynamic tables for findings and recent scans with severity indicators',
+    'Secure FastAPI backend with JWT authentication and CI/CD integration',
+    'Real-time Discord alerts with remediation guidance',
+    'Fully Dockerized infrastructure for local and cloud deployment',
+    'Privacy-first design: automatic secret masking, no data retention'
+  ],
+  metrics: {
+    scans: '1K+',
+    repositories: '100+ monitored'
+  },
+  github: 'https://github.com/Saif-hadd/SecretHawk',
+  demo: '#',
+  icon: Shield,
+  gradient: 'from-emerald-500 via-teal-500 to-cyan-500',
+  featured: true
+}
+,
      {
   title: 'DevSecOps Microservices Automation',
   subtitle: 'Automatisation DevSecOps pour le déploiement et la gestion des microservices cloud',
@@ -90,6 +120,34 @@ const Projects = () => {
       gradient: 'from-purple-500 via-pink-500 to-red-500',
       featured: true
     },
+    {
+  title: 'React Smart Effect',
+  subtitle: 'Smarter useEffect & useLayoutEffect Hooks',
+  description:
+    'Open-source React library designed to optimize and simplify the useEffect and useLayoutEffect hooks. React-Smart-Effect provides smart dependency tracking, deep comparison, and built-in debugging to prevent unnecessary re-renders and improve developer productivity.',
+  image: 'https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=800', // image liée à React / développement frontend
+  technologies: ['React', 'TypeScript', 'Vite', 'Babel'],
+  features: [
+    'Smart dependency tracking with deep comparison support',
+    'Advanced debugging to instantly visualize dependency changes',
+    'Automatic optimization to prevent unnecessary re-renders',
+    'Dependency analysis to detect issues before they occur',
+    'DevTools integration for real-time effect monitoring',
+    'TypeScript support with full type safety',
+    'Build-time dependency analysis via Babel & Vite plugins',
+    'Includes specialized hooks: useSmartEffect, useDeepEffect, useDebugEffect, useSmartLayoutEffect'
+  ],
+  metrics: {
+    downloads: '1K+',
+    stars: '100+'
+  },
+  github: 'https://github.com/Saif-hadd/react-smart-effect',
+  demo: 'https://www.npmjs.com/package/react-smart-effect',
+  icon: Zap,
+  gradient: 'from-purple-500 via-pink-500 to-red-500',
+  featured: true
+}
+,
     {
   title: 'React Hydration Status',
   subtitle: 'Client-Side Hydration Detection for SSR',

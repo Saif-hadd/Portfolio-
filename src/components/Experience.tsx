@@ -9,14 +9,12 @@ const Experience = () => {
     duration: 'Feb 2025 - Jun 2025',
     location: 'Sfax, Tunisia',
     description: [
-      'Containerization of microservices using Docker & Docker Compose (multi-container setups, networks …)',
-      'Provisioning of Microsoft Azure infrastructure (VMs, VNets, NSGs) with Terraform (IaC)',
-      'Automation of microservices deployment (Node.js, React, PostgreSQL) with Ansible',
-      'Design of manual test plans for front/back features',
-      'API testing (Postman) and automated UI testing (Playwright)',
-      'End-to-end QA lifecycle management (bugs, tracking, and resolution via Jira)',
-      'Built CI/CD pipelines (GitHub Actions) including unit tests, SAST, DAST, and vulnerability scans resulting in a 40% reduction in production errors and a 30% acceleration of the deployment cycle',
-      'System monitoring with Prometheus & Grafana (dashboards and metrics)'
+      'Designed, built, and deployed full-stack web applications using React, Node.js, and PostgreSQL, improving scalability, user experience, and reducing reported issues.',
+  'Automated microservices deployment with Docker and Docker Compose, while leveraging Ansible for configuration management (playbooks, roles, provisioning of services/VMs) and Terraform for infrastructure as code, enabling reproducible, cloud-native environments.',
+  'Provisioned and orchestrated multicloud infrastructure using Terraform across Microsoft Azure, AWS, and Google Cloud, including virtual networks, load balancers, and compute resources, ensuring scalability, cost-efficiency, and compliance with IaC best practices.',
+  'Implemented CI/CD pipelines with GitHub Actions, integrating automated testing (unit/integration), security scanning with OWASP ZAP, Trivy, Snyk, SonarQube, Ansible Vault, dependency checks, and vulnerability assessments, accelerating secure and reliable software delivery.',
+  'Monitored system health with Prometheus and Grafana, improving uptime, reducing MTTR (Mean Time to Recovery), and enabling proactive incident management.',
+  'Enhanced DevOps collaboration by integrating custom Discord webhooks to deliver real-time build status (success/failure), security test artifacts, and dynamic VM details (name, external IP).'
     ],
     technologies: ['React', 'Node.js','PostgreSql','Azure','Docker','Ansible','Terraform','GithubActions','DevSecOps','OWASP','SonarQube','Snyk','Trivy']
   },
@@ -26,10 +24,10 @@ const Experience = () => {
     duration: 'Jul 2024 - Aug 2024',
     location: 'Sfax, Tunisia',
     description: [
-      'Developed a real-time chat application (Flutter + Spring Boot)',
-      'Enhanced security (+25%) by securing API communication and user sessions',
-      'Optimized the backend to reduce latency and improve user experience',
-      'Managed MongoDB database for authentication and message storage'
+      'Built a secure real-time chat application using Flutter (frontend) and Spring Boot (backend), ensuring a responsive and reliable user experience.',
+  'Improved data security by 25% through securing API communications, user sessions, and implementing best practices for authentication.',
+  'Optimized backend performance, reducing latency and enabling smoother real-time interactions.',
+  'Managed MongoDB database schema for user authentication and chat storage, ensuring scalability and data integrity.'
     ],
     technologies: ['Flutter','SpringBoot','MongoDB','Jwt','RestAPI','Postman']
   },
@@ -51,10 +49,10 @@ const Experience = () => {
     duration: 'Feb 2022 - Jun 2022',
     location: 'Medenine, Tunisia',
     description: [
-      'Led development of a web and mobile app supporting Covid-19 response efforts',
-      'Designed and built a location-based service to identify available oxygen devices in real time',
-      'Developed an online contact service to facilitate communication for Covid-affected users',
-      'Built a centralized dashboard'
+      'Led full-stack development of a web and mobile Covid-19 response application, improving access to critical health resources.',
+  'Designed a real-time geolocation service to track available oxygen devices, enhancing timely patient support.',
+  'Built a contact platform connecting users with health services, facilitating faster assistance and better resource allocation.',
+  'Developed an administrative dashboard for monitoring and managing healthcare resources efficiently.'
     ],
     technologies: [
       'Flutter',          
@@ -73,8 +71,8 @@ const Experience = () => {
     duration: 'Aug 2021 - Sep 2021',
     location: 'Medenine, Tunisia',
     description: [
-      'Designed a user-friendly interface for reporting streetlight malfunctions',
-      'Built a centralized dashboard showing real-time incident reports with geolocation data'
+      'Designed an intuitive frontend for reporting public infrastructure issues (e.g., streetlight outages), making it easy for users to report problems quickly.',
+  'Created a dashboard aggregating incident reports with real-time geolocation data, improving monitoring and response efficiency for city services.'
     ],
     technologies: [
       'Java',
